@@ -18,8 +18,8 @@ const sphere = new THREE.Mesh(geometry, material);
 sphere.position.set(0, 0, 0,);
 scene.add(sphere);
 
-let velocity = { x: 0.03, y: 0.02 }; 
-let scaleFactor = .5;
+let velocity = { x: 0.02, y: 0.01 }; 
+let scaleFactor = .4;
 let colorChange = true;
 
 function getRandomColor() {
